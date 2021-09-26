@@ -10,32 +10,30 @@ import java_8_exmp.beans.Person;
 public class Unit1ExceSolJava7 {
 
 	public static void main(String[] args) {
-		List<Person> people = Arrays.asList(new Person("sai", "ganesh", 24),
-				new Person("ram", "babu", 43),
-				new Person("veera", "veni", 38),
-				new Person("teja", "swi", 27));
-		
-		//1. sort list by lastname
+		List<Person> people = Arrays.asList(new Person("sai", "ganesh", 24), new Person("ram", "babu", 43),
+				new Person("veera", "veni", 38), new Person("teja", "swi", 27));
+
+		// 1. sort list by lastname
 		Collections.sort(people, new Comparator<Person>() {
 			@Override
 			public int compare(Person p1, Person p2) {
 				return p1.getLastName().compareTo(p2.getLastName());
 			}
 		});
-		
-		//2. create a method to print all elements.
+
+		// 2. create a method to print all elements.
 		printPeople(people);
-		
-		//3. Create a method to print elements, which starts lastname with g
+
+		// 3. Create a method to print elements, which starts lastname with g
 		printPersonConditionally(people, new Condition() {
 			@Override
 			public boolean test(Person person) {
 				return person.getLastName().startsWith("g");
 			}
 		});
-		
-		//4. Create a method to print elements, which starts firstname with t
-		
+
+		// 4. Create a method to print elements, which starts firstname with t
+
 		printPersonConditionally(people, new Condition() {
 			@Override
 			public boolean test(Person person) {
