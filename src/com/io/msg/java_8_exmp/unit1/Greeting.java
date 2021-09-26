@@ -1,4 +1,4 @@
-package java_8_exmp;
+package java_8_exmp.unit1;
 
 public class Greeting {
 	

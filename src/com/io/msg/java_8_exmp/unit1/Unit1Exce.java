@@ -1,9 +1,9 @@
-package java_8_exmp;
+package java_8_exmp.unit1;
 
 import java.util.Arrays;
 import java.util.List;
 
-import java_8_exmp.beans.Person;
+import java_8_exmp.unit1.beans.Person;
 
 public class Unit1Exce {
 	public static void main(String[] args) {

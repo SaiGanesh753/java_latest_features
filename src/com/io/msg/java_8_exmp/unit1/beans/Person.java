@@ -1,4 +1,4 @@
-package java_8_exmp.beans;
+package java_8_exmp.unit1.beans;
 
 public class Person {
 

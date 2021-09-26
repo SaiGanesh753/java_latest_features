@@ -1,11 +1,12 @@
-package java_8_exmp;
+package java_8_exmp.unit1;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import java_8_exmp.beans.Person;
+import java_8_exmp.unit1.beans.Person;
+import java_8_exmp.unit1.interfaces.Condition;
 
 public class Unit1ExceSolJava7 {
 
@@ -54,8 +55,4 @@ public class Unit1ExceSolJava7 {
 			System.out.println("person : "+person);
 		}
 	}
-}
-
-interface Condition {
-	boolean test(Person person);
 }

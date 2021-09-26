@@ -1,11 +1,11 @@
-package java_8_exmp;
+package java_8_exmp.unit1;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import java.util.function.Predicate;
 
-import java_8_exmp.beans.Person;
+import java_8_exmp.unit1.beans.Person;
+import java_8_exmp.unit1.interfaces.Condition;
 
 public class Unit1ExceSolJava8 {
 	
@@ -30,7 +30,7 @@ public class Unit1ExceSolJava8 {
 		printPersonConditionally(people, (Person person) -> person.getFirstName().startsWith("t"));
 	}
 
-	private static void printPersonConditionally(List<Person> people, Predicate<Person> condition) {
+	private static void printPersonConditionally(List<Person> people, Condition condition) {
 		for (Person person : people) {
 			if (condition.test(person))
 				System.out.println("conditionally : " + person);
