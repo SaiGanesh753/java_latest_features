@@ -7,8 +7,9 @@ public class primitiveTypes {
      * In order => byte(8bit), short(16bit), int(32bit), long(64bit), float, double
      * PrimitiveTypes : byte, short, int, long  => float, double.
      * Wrapper Classes : Byte, Short, Integer, Long, Float, Double, String
-     * Floating types : float, double
+     * Floating && primitive types : float, double
      * boolean, Boolean
+     * char, Char
      */
     public static void main(String[] args) {
 
