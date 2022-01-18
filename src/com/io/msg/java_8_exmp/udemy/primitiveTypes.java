@@ -1,6 +1,6 @@
 package java_8_exmp.udemy;
 
-public class primitiveTypes {
+public class primitiveTypes extends SampleDemo {
     /**
      * Variables to store the data.
      * DataTypes are used to specify the data with allocated space.
@@ -34,5 +34,16 @@ public class primitiveTypes {
 
         System.out.println("\nDouble min val : "+Double.MIN_VALUE);
         System.out.println("Double max val : "+Double.MAX_VALUE);
+
+        int i = Integer.parseInt("20");
+        System.out.println(i);
+
+        Integer intVal = 20;
+        System.out.println(intVal);
     }
+
+    @Override
+    public void abstractMethod() {
+    }
+
 }
