@@ -1,6 +1,6 @@
 package java_8_exmp.udemy;
 
-public interface InterfaceDemo {
+public interface InterfaceDemoDefault {
 
     public void printName();
     default public void strength() {

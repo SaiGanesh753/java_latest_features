@@ -2,7 +2,7 @@ package java_8_exmp.udemy.Interview_tasks;
 
 import java.util.Arrays;
 
-public class Interview_tasks {
+public class FindLargeCombinationFromBigArray {
     public static void main(String[] args) {
         int[] arrayVal = {1, 2, 10, -11, 5, 2};
 

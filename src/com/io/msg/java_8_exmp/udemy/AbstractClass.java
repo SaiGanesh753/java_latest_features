@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public abstract class SampleDemo {
-    public static void main(String[] args) throws CustomException {
+public abstract class AbstractClass {
+    public static void main(String[] args) {
         List<String> stringList = new ArrayList<>(0);
         stringList.add("a");
         stringList.add("bI");
@@ -21,18 +21,8 @@ public abstract class SampleDemo {
             }
         }
         System.out.println("nonDup list : "+nonDupList);*/
-
-        m1(10);
     }
     public abstract void abstractMethod();
-
-    public static int m1(int a) throws CustomException{
-        int i = 0;
-        if (i ==0) {
-            throw new CustomException("check once..");
-        }
-        return i;
-    }
     public int m1(int a, int b) {return 0;}
 
 }

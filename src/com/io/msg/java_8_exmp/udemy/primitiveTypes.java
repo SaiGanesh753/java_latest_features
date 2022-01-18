@@ -1,6 +1,6 @@
 package java_8_exmp.udemy;
 
-public class primitiveTypes extends SampleDemo {
+public class primitiveTypes extends AbstractClass {
     /**
      * Variables to store the data.
      * DataTypes are used to specify the data with allocated space.
