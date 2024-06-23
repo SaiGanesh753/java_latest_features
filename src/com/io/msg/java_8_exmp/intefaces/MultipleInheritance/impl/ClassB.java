@@ -12,5 +12,9 @@ public class ClassB extends ClassA implements InterfaceA, InterfaceB {
     public static void main(String[] args) {
         ClassB obj = new ClassB();
         obj.sample();
+
+        //we can define static methods inside interface and we can call the static method directly
+        // with the interface name.
+        InterfaceA.sampleStaticMethod();
     }
 }
